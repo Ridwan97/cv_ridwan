@@ -10,15 +10,14 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <link rel="stylesheet" href="assets/css/style.css">
-
+  <link rel="stylesheet" href="assets/css/tes.css">
   <title>CV | Muhammad Ridwan</title>
 </head>
 <body>
  <!-- Navbar -->
 
  <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-nav">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="#">Muhammad Ridwan</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -87,99 +86,232 @@
     <hr class="col-2">  
     <div class="row justify-content-start">
       <div class="col-8">
-        <h4><b>Aplikasi E-Commerce Berbasis Website</b></h4>
-        <h4><b>Aplikasi Marketplace Berbasis Website </b></h4>
-        <h4><b>Wordpress Website Sistem Informasi</b></h4>
-        <h4><b>Aplikasi Penggajian Menggunakan PPH 21 Berbasis Website</b></h4>
-        <h4><b>Rancang Bangun Lab E-Commerce  </b></h4>
-        <h4><b>Video Teaser Unsia Sistem Informasi</b></h4>
-        <h4><b>IG Unsia Sistem Informasi</b></h4>
+        <ul>
+          <li>
+            <a href="#"> 
+              <h4 data-bs-toggle="modal" data-bs-target="#portofolio1">
+                <b>Aplikasi E-Commerce Berbasis Website</b>
+              </h4>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4 data-bs-toggle="modal" data-bs-target="#portofolio2">
+                <b>Rancang bangun Ruangan Lab E-commerce </b></h4>
+              </a>
+            </li>
+            <li>
+             <a href="#"> <h4 data-bs-toggle="modal" data-bs-target="#portofolio3"><b>Wordpress Website Sistem Informasi</b></h4></a>
+           </li>
+           <li>        
+             <a href="#"> <h4 data-bs-toggle="modal" data-bs-target="#portofolio4"><b>Video Teaser Unsia Sistem Informasi</b></h4></a>
+           </li>
+           <li>
+             <a href="#"> <h4 data-bs-toggle="modal" data-bs-target="#portofolio5"><b>IG Unsia Sistem Informasi</b></h4></a>
+           </li>
+           <li>
+             <a href="#"> <h4 data-bs-toggle="modal" data-bs-target="#portofolio6"><b>Website Marketplace</b></h4></a>
+           </li>
+           <li>
+             <a href="#"><h4 data-bs-toggle="modal" data-bs-target="#portofolio7"><b>Aplikasi Payroll</b></h4></a>
+           </li>
+         </ul>
+       </div>
+     </div>
+     <div class="modal fade" id="portofolio1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Website E-Commerce</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/01.png" class="img-fluid img-thumbnail" >
+            <p class="justify">
+              Website ini dibuat akhir tahun 2018.
+              sebagai persyaratan untuk masuk sebagai asisten labolaotrium info 1 (sekarang jadi lab e-commerce).
+              lalu dikembangkan lagi pada tahun 2020.
+              untuk mengikuti seertifkiasi bnsp.
+              <br> <br>
+              Untuk tampilan admin menggunakan template <a href="https://www.free-css.com/free-css-templates/page204/binary-admin" target="_blank"> binary admin.</a><br>
+              menggunakan database mysql, php 7 native, framework css bootstrap 4, sedikit sentuhan javascript. 
+              Untuk tampilan pelanggan menggunakan template parallax dari <a href="  https://materializecss.com/templates/parallax-template/preview.html" target="_blank"> materialize</a>
+              <br>
+              menggunakan database mysql, php 7 native, framework css materialize, sedikit sentuhan javascript.
+              <br> <br>
+              Jika ada kritik dan saran yang membangun silahkan email saya : <b>Ridwan.Satrawijaya@gmail.com</b>
+              <br>*ps silahkan download & pelajari website ini secara gratis. tidak untuk diperjualbelikan / komersial.</p>
+            </div>
+            <div class="modal-footer">
+             link : <a href="https://github.com/Ridwan97/E-Commerce" target="_blank"> E-Commerce</a>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="modal fade" id="portofolio2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Rancang Bangun Ruangan Lab E - Commerce</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/02.png" class="img-fluid img-thumbnail" >
+            <p class="justify">Rancang Bangun Lab E-Commerce meggunakan software Sketchup 8 dengan skala 1 : 1</p>
+          </div>
+          <div class="modal-footer">
+            link : <a href="https://www.youtube.com/watch?v=R_Oa1qOZJsk" target="_blank">Rancang Bangun Ruangan Lab E-Commerce</a>
+          </div>
+        </div>
       </div>
     </div>
-    <?php   include "portofolio.php" ?>
 
-    ​
+    <div class="modal fade" id="portofolio3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Wordpress FTKI - SI</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/03.png" class="img-fluid img-thumbnail" >
+            <p class="justify">
+              Memabatu Melakukan Memodifikasi, Penambahan, fitur / tools Website Fakultas Teknologi Komunikasi dan Informatika Prodi Sistem Informasi Universitas Nasional.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <p>
+             Link : <a href="http://si.ftki.unas.ac.id/" target="_blank">FTKI - SI</a>
+           </p>
+         </div>
+       </div>
+     </div>
+   </div>
 
-  </section>
-
-  <!-- Software -->
-  <section class="software">
-   <div class="container">
-    <h1>Software</h1>
-    <hr class="col-2">  
-    <div class="row justify-content-start">
-      <div class="col-8">
-        <h4><b>Microsoft Office</b></h4>
-        <h4><b>Adobe Photoshop</b></h4>
-        <h4><b>Adobe Ilustator</b></h4>
-        <h4><b>Vegas Pro 17</b></h4>
-        <h4><b>Sketchup Pro 8</b></h4>
+   <div class="modal fade" id="portofolio4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Video Teaser Sistem Informasi</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/04.png" class="img-fluid img-thumbnail" >
+          <p>
+            Pembuatan Akun Youtube UNSIA Sistem Informasi sebagai media promosi digital dimana sudah ada 2 Video yang telah dibuat seperti <a href="https://www.youtube.com/watch?v=nH_vbBhTxuA" target="_blank">Mengapa memilih UNSIA Sistem Informasi </a> dan <a href="youtube.com/watch?v=MozcWe_hoNM&t=29s" target="_blank"> Pengenalan Dosen dan Aktivitas pembelajaran</a>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <p>link : <a href="https://www.youtube.com/channel/UC_ODfTwlB-Bxs4flbuWQpcA" target="_blank">Youtube UNSIA Sistem Informasi</a></p>
+        </div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- Programming -->
-<section class="programming">
- <div class="container">
-  <h1>Programming</h1>
-  <hr class="col-2">  
-  <div class="row justify-content-start">
-    <div class="col-8">
-      <h4><b>HTML 5 Intermediate</b></h4>
-      <h4><b>CSS Fundamental</b></h4>
-      <h4><b>Javascript Fundamaental</b></h4>
-      <h4><b>PHP Fundamental</b></h4>
-      <h4><b>MySql</b></h4>
-      <h4><b>Framework CSS :Bootstrap</b></h4>
-      <h4><b>Framework CSS :Materialize</b></h4>
-      <h4><b>CMS Wordpress</b></h4>
+  <div class="modal fade" id="portofolio5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Instagram Pordi Sistem Informasi UNSIA</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/05.png" class="img-fluid img-thumbnail" >
+          <p class="justify">
+            Sebagai sarana promosi Program Studi Sistem Informasi Universitas Siber Asia di bidang digital maka diperlukannya official akun Instagram tersebut. Agar dapat dikenal orang banyak, dan mengedukasi alasan mengapa kuliah di prodi sistem informasi Universitas Siber Asia  pembuatan thumbnail ini menggunkana tools Adobe Photoshop dan Canva.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <p>link : <a href="#" target="_blank">Instagram Sistem Infortmasi Siber Asia</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="portofolio6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Website Marketplace</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/06.png" class="img-fluid img-thumbnail" >
+          <p class="justify">
+            Website ini merupakan pengembangan dari website e-commerce, menjadi Marketplace.
+            Website ini memiliki 4 aktor yaitu, pelanggan, pengunjung, penjual dan admin.
+            Website Marketplace ini sebagai tugas akhir saya. 
+            Dan sudah saya buat dalam bentuk jurnal dan sudah di publish : <a href="              http://journal.lembagakita.org/index.php/jtik/article/view/209/pdf" target="_blank">JTIK</a>
+            <br><br>
+            menggunakan database mysql, php 7 native, framework css materialize, sedikit sentuhan javascript.
+            menggunakan API RajaOngkir, mpdf
+            <br><br>
+            *ps silahkan download & pelajari website ini secara gratis. tidak untuk diperjualbelikan / komersial. <br>
+            Jika ada kritik dan saran yang membangun silahkan email saya : <b>Ridwan.Satrawijaya@gmail.com </b>
+          </p>
+        </div>
+        <div class="modal-footer">
+         <p>link : <a href="https://github.com/Ridwan97/marketplace" target="_blank"><b>Marketplace</b></a></p>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="portofolio7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Aplikasi Payroll</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/07.png" class="img-fluid img-thumbnail" >
+        <p class="justify">
+          Website ini adalah website sistem penggajian / payroll.
+          yang berisi tetang sistem penggajian selama setahun yang dimana telah terhitung juga perhitungan Pajak Penghasilan Pasal 21, Penghasilan Tidak Kena Pajak, Perhitungan THR, BPJSTK, BPJS Kesehatan, BPJS Jaminan Hari Tua, BPJS Keceleakaan Kerja. <br> 
+          Website ini menggunakan tempalate admin : 
+          <a href="https://github.com/rahmato/free-materialize-material-design-admin-template" target="_blank"> template</a>
+
+          menggunakan database mysql, php 7 native, framework css materialize, sedikit sentuhan javascript.
+          menggunakan API mpdf.
+          <br><br>
+          *ps silahkan download & pelajari website ini secara gratis. tidak untuk diperjualbelikan / komersial.
+          Jika ada kritik dan saran yang membangun silahkan email saya : <b>Ridwan.Satrawijaya@gmail.com</b>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <p>link : <a href="https://github.com/Ridwan97/payroll" target="_blank"><b>Payroll</b></a></p>
+      </div>
     </div>
   </div>
 </div>
+
+
+​
+
 </section>
 
-<!-- Skills -->
-<section class="skills">
- <div class="container">
-  <h1>Skills</h1>
-  <hr class="col-2">  
-  <div class="row justify-content-start">
-    <div class="col-8">
-      <h4><b>Komunikasi</b></h4>
-      <h4><b>Kerjasama</b></h4>
-      <h4><b>Fleksibel</b></h4>
-    </div>
-  </div>
-</div>
-</section>
+
 <div class="container">
   <div class="row">
-    <div class="col-2">
-      <span class="material-icons">mode_edit</span>
+    <div class="col-4">
+    <a class="btn btn-primary btn-lg mb-3" data-bs-toggle="collapse" href="#software" role="button" aria-expanded="false" aria-controls="software">Software</a>  
     </div>
-    <div class="col-10">
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-      </div>        
+    <div class="col-4">
+    <button class="btn btn-primary btn-lg mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#proramming" aria-expanded="false" aria-controls="proramming">Programming</button>  
     </div>
+    <div class="col-4">
+    <button class="btn btn-primary btn-lg mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="false" aria-controls="skills">Skills</button>  
+    </div>
+    
+    
+    
   </div>
-  <i class="material-icons">cloud</i>
-  
-
-</div>
-
-<div class="container">
-  <p>
-    <a class="btn btn-primary btn-lg" data-bs-toggle="collapse" href="#software" role="button" aria-expanded="false" aria-controls="software">Software</a>
-    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#proramming" aria-expanded="false" aria-controls="proramming">Programming</button>
-    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="false" aria-controls="skills">Skills</button>
-    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="software proramming">Toggle both elements</button>
-  </p>
   <div class="row">
-    <div class="col">
+    <div class="col-md-3">
       <div class="collapse multi-collapse" id="software">
-        <div class="card card-body">
+        <div class="card card-body tiga">
           <ul>
             <h5>
               <li>Adobe Photoshop</li>
@@ -192,9 +324,9 @@
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-5">
       <div class="collapse multi-collapse" id="proramming">
-        <div class="card card-body">
+        <div class="card card-body tiga">
           <h5>
             <li>HTML 5 </li>
             <li>CSS </li>
@@ -207,18 +339,26 @@
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-md-4">
       <div class="collapse multi-collapse" id="skills">
-        <div class="card card-body">
+        <div class="card card-body tiga">
+         <h5>
           <li>Komunikasi</li>
           <li>Kerjasama</li>
           <li>Fleksibel</li>
-        </div>
+        </h5>
       </div>
     </div>
   </div>
 </div>
+</div>
 <br><br><br><br>
+
+<nav class="navbar sticky-bottom navbar-light bg-info">
+  <div class="container">
+    <a class="navbar-brand" href="#"><i class="material-icons">facebook</i> Muhammad Ridwan</a>
+  </div>
+</nav>
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 

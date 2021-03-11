@@ -4,7 +4,7 @@
     <hr class="col-2">  
     <div class="row justify-content-start">
       <div class="col-4">
-        Saya adalah seorang lulusan mahasiswa sistem informasi yang mempunyai passion dibidang IT khususnya dibidang website, dan juga design. Saya dapat bekerja secara individu maupun kelompok 
+        <p class="justify">        Saya adalah seorang lulusan mahasiswa sistem informasi yang mempunyai passion dibidang IT khususnya dibidang website, dan juga design. Saya dapat bekerja secara individu maupun kelompok </p>
       </div>
       <div class="col-8">
         <div class="row justify-content-start mb-3">
