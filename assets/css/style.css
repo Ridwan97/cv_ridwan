@@ -1,0 +1,30 @@
+.jumbotron {
+	padding-top: 2rem;
+}
+
+#gambar	{
+	height: 500px;
+}
+
+.panitia_gambar {
+	height: 200px;
+	width: 200px;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.tiga {
+	height: 200px;
+}
+
+.hitam{
+	opacity: 0.5 !important;
+	height: 50px;
+	width: 50px;
+}
+
+.icon h4 {
+	text-align: center;
+}

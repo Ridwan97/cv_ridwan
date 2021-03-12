@@ -18,3 +18,9 @@
 .tiga {
 	height: 200px;
 }
+
+.hitam{
+	opacity: 0.1 !important;
+	height: 100px;
+	width: 100px;
+}

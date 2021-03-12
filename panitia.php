@@ -1,4 +1,4 @@
-<section class="panitia bg-info">
+  <section class="panitia bg-info">
   <div class="container">
     <div class="accordion mb-5" id="accordionExample">
       <div class="accordion-item">

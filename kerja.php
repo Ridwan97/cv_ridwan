@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Pengalaman Kerja</h1>
     <hr class="col-2">  
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-2">
         <h5><b>2015</b></h5>
         <h6 class="lead">Jan - Mei</h6>
@@ -20,7 +20,7 @@
         </h5>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-2">
         <h5><b>2016 - 2017</b></h5>
         <h6 class="lead">Jun - Feb</h6>
@@ -37,7 +37,7 @@
         </h5>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-2">
         <h5><b>2017 - 2020</b></h5>
         <h6 class="lead">Aug - Mar</h6>

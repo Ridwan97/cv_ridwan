@@ -10,7 +10,8 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <link rel="stylesheet" href="assets/css/tes.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   <title>CV | Muhammad Ridwan</title>
 </head>
 <body>
@@ -294,24 +295,27 @@
 
 
 <div class="container">
-  <div class="row">
-    <div class="col-4">
-    <a class="btn btn-primary btn-lg mb-3" data-bs-toggle="collapse" href="#software" role="button" aria-expanded="false" aria-controls="software">Software</a>  
+  <div class="row  align-items-center">
+    <div class="col-1">
+
     </div>
     <div class="col-4">
-    <button class="btn btn-primary btn-lg mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#proramming" aria-expanded="false" aria-controls="proramming">Programming</button>  
+      <a class="btn btn-primary btn-lg mb-3" data-bs-toggle="collapse" href="#software" role="button" aria-expanded="false" aria-controls="software">Software</a>  
     </div>
-    <div class="col-4">
-    <button class="btn btn-primary btn-lg mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="false" aria-controls="skills">Skills</button>  
+    <div class="col-5">
+      <button class="btn btn-primary btn-lg mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#proramming" aria-expanded="false" aria-controls="proramming">Programming</button>  
+    </div>
+    <div class="col-2">
+      <button class="btn btn-primary btn-lg mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="false" aria-controls="skills">Skills</button>  
     </div>
     
     
     
   </div>
-  <div class="row">
+  <div class="row ">
     <div class="col-md-3">
       <div class="collapse multi-collapse" id="software">
-        <div class="card card-body tiga">
+        <div class="card card-body tiga mb-3">
           <ul>
             <h5>
               <li>Adobe Photoshop</li>
@@ -326,7 +330,7 @@
     </div>
     <div class="col-md-5">
       <div class="collapse multi-collapse" id="proramming">
-        <div class="card card-body tiga">
+        <div class="card card-body tiga mb-3">
           <h5>
             <li>HTML 5 </li>
             <li>CSS </li>
@@ -341,7 +345,7 @@
     </div>
     <div class="col-md-4">
       <div class="collapse multi-collapse" id="skills">
-        <div class="card card-body tiga">
+        <div class="card card-body tiga mb-3">
          <h5>
           <li>Komunikasi</li>
           <li>Kerjasama</li>
@@ -354,11 +358,70 @@
 </div>
 <br><br><br><br>
 
-<nav class="navbar sticky-bottom navbar-light bg-info">
-  <div class="container">
-    <a class="navbar-brand" href="#"><i class="material-icons">facebook</i> Muhammad Ridwan</a>
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-info p-4">
+   <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-6">
+        <h5><b>CV Muhammad Ridwan </b></h5>
+        <hr class="bg-warning col-3">
+        <p class="justify strong">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam temporibus dolore omnis, in natus nostrum, architecto culpa, ex beatae doloribus maxime rem exercitationem molestiae quos optio voluptates odit, eum corporis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, ut, provident. Velit rerum a, fugit repellendus voluptas, saepe laborum vel cumque? Nobis voluptatem totam nesciunt eveniet quidem fugit nam obcaecati.</p>
+      </div>
+      <div class="col-3">
+        <h5><b>Social Media</b></h5>
+        <hr class="bg-warning col-1">
+            <a href=""><ion-icon name="logo-linkedin"></ion-icon> <b>cok</b></a>
+      </div>
+      <div class="col-3">
+        <h5><b>No Telphone</b></h5>
+        <hr class="bg-warning col-1 strong">
+      </div>
+    </div>
+ 
+    <br>
+
+  <h5 class="text-white h4">Collapsed content</h5>
+  <span class="text-muted">Toggleable via the navbar brand.</span>
+
+</div>
+</div>
+</div>
+<nav class="navbar navbar-dark bg-info">
+  <div class="container-fluid">
+   <div class="container">
+    <div class="row">
+      <button class="navbar-toggler col-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> 
+      </button>
+      <h6 class="col-10 mt-2">    ©2021 Copyright Text<a class="" href="https://github.com/Ridwan97/cv_ridwan" target="_blank"> CV Muhammad Ridwan</a></h6>
+    </div>
   </div>
+</div>
+</div>
+</div>
 </nav>
+
+<!-- <nav class="navbar sticky-bottom navbar-light bg-info">
+  <div class="container">
+    <div class="row">
+      
+    <a href="">
+      <span class="material-icons bg-light rounded-circle">edit</span>
+    </a>
+    </div>
+    <div class="row">
+      <a href="" class="btn btn-lg"><i class="material-icons bg-light rounded-circle">home</i></a>
+    </div>
+
+      <span class="material-icons bg-light rounded-circle">facebook</span>
+      <i class="material-icons bg-light rounded-circle">computer</i>
+    <img src="assets/img/background.jpg" class="rounded-circle hitam"><i class="material-icons">home</i>
+    <li>
+    <a  href="#"><i class="material-icons rounded-circle bg-light">facebook</i> Muhammad Ridwan</a>  
+    </li>
+    
+  </div>
+</nav> -->
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
