@@ -362,7 +362,7 @@
   <div class="bg-info p-4">
    <div class="container">
     <div class="row justify-content-start">
-      <div class="col-6">
+      <div class="col-5">
         <h5><b>CV Muhammad Ridwan </b></h5>
         <hr class="bg-warning col-3">
         <p class="justify strong">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam temporibus dolore omnis, in natus nostrum, architecto culpa, ex beatae doloribus maxime rem exercitationem molestiae quos optio voluptates odit, eum corporis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, ut, provident. Velit rerum a, fugit repellendus voluptas, saepe laborum vel cumque? Nobis voluptatem totam nesciunt eveniet quidem fugit nam obcaecati.</p>
@@ -370,20 +370,43 @@
       <div class="col-3">
         <h5><b>Social Media</b></h5>
         <hr class="bg-warning col-1">
-            <a href=""><ion-icon name="logo-linkedin"></ion-icon> <b>cok</b></a>
+        <a href="https://www.linkedin.com/in/ridwan08/" target="_blank">
+          <ion-icon name="logo-linkedin" size="large"></ion-icon>
+          <span class="h3">Lindkedin</span> <br>
+        </a>
+        <a href="https://www.facebook.com/Sastrawijaya97/" target="_blank">
+          <ion-icon name="logo-facebook" size="large"></ion-icon>
+          <span class="h3">Facebook</span> <br>
+        </a>
+        <a href="https://www.instagram.com/ridwan.sastrawijaya/" target="_blank">
+          <ion-icon name="logo-instagram" size="large"></ion-icon>
+          <span class="h3">Instagram</span> <br>
+        </a>
       </div>
-      <div class="col-3">
-        <h5><b>No Telphone</b></h5>
+      <div class="col-4">
+        <h5><b>Contact Me</b></h5>
         <hr class="bg-warning col-1 strong">
+        <a href="" target="_blank">
+          <ion-icon name="logo-whatsapp" size="large"></ion-icon>
+          <span class="h3">0851 5642 4144</span> <br>
+        </a>
+        <a href="" target="_blank">
+          <ion-icon name="mail-sharp" size="large"></ion-icon>
+          <span class="h5">Ridwan.Sastrawijaya@gmail.com</span> <br>
+        </a>
+        <a href="https://github.com/Ridwan97" target="_blank">
+          <ion-icon name="logo-github" size="large"></ion-icon>
+          <span class="h3">Ridwan97</span> <br>
+        </a>
       </div>
     </div>
- 
+
     <br>
 
-  <h5 class="text-white h4">Collapsed content</h5>
-  <span class="text-muted">Toggleable via the navbar brand.</span>
+    <h5 class="text-white h4">Collapsed content</h5>
+    <span class="text-muted">Toggleable via the navbar brand.</span>
 
-</div>
+  </div>
 </div>
 </div>
 <nav class="navbar navbar-dark bg-info">
