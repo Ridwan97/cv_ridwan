@@ -54,13 +54,11 @@
 <?php include "jumbotron.php" ?>
 
 <!-- About -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path fill="#0DCAF0" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,74.7C240,53,300,75,360,85.3C420,96,480,96,540,101.3C600,107,660,117,720,128C780,139,840,149,900,154.7C960,160,1020,160,1080,138.7C1140,117,1200,75,1260,96C1320,117,1380,203,1410,245.3L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0DCAF0" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,149.3C672,139,768,181,864,181.3C960,181,1056,139,1152,138.7C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 <?php include "about.php" ?>
 
 <!-- Pendidikan -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0DCAF0" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,74.7C240,53,300,75,360,85.3C420,96,480,96,540,101.3C600,107,660,117,720,128C780,139,840,149,900,154.7C960,160,1020,160,1080,138.7C1140,117,1200,75,1260,96C1320,117,1380,203,1410,245.3L1440,288L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg> 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0DCAF0" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,149.3C672,139,768,181,864,181.3C960,181,1056,139,1152,138.7C1248,139,1344,181,1392,202.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 <?php include "pendidikan.php" ?>
 
 <!-- Kerja -->
@@ -299,47 +297,6 @@
 </section>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0DCAF0" fill-opacity="1" d="M0,64L26.7,74.7C53.3,85,107,107,160,112C213.3,117,267,107,320,128C373.3,149,427,203,480,202.7C533.3,203,587,149,640,122.7C693.3,96,747,96,800,117.3C853.3,139,907,181,960,170.7C1013.3,160,1067,96,1120,69.3C1173.3,43,1227,53,1280,69.3C1333.3,85,1387,107,1413,117.3L1440,128L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
 
-<div class="container">
-  
-  <div class="row align-items-center">
-    <div class="col-3">
-      <a href="" class="btn btn-info">Software</a>
-    </div>
-    <div class="col-5">
-        <a href="" class="btn btn-info">Software</a>
-    </div>
-    <div class="col-4">
-     <a href="" class="btn btn-info">Software</a>
-    </div>
-  </div>
-
-</div> 
-
-<div class="float-sm-start">Float start on viewports sized SM (small) or wider</div><br>
-<div class="float-md-start">Float start on viewports sized MD (medium) or wider</div><br>
-<div class="float-lg-start">Float start on viewports sized LG (large) or wider</div><br>
-<div class="float-xl-start">Float start on viewports sized XL (extra-large) or wider</div><br>
-<div class="container">
-  <div class="row">
-    <div class="float-center">
-      <p> sdsd</p>
-    </div>
-  </div>
-</div>
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-3 align-self-center">
-      <a href="" class="btn btn-info">Software</a>
-    </div>
-        <div class="col-5 align-self-center">
-      <a href="" class="btn btn-info">Software</a>
-    </div>
-        <div class="col-4 align-self-center">
-      <a href="" class="btn btn-info">Software</a>
-    </div>
-  </div>
-</div>
 
 <div class="container">
   <div class="row  align-items-center">
