@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  </style> 
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   <title>CV | Muhammad Ridwan</title>
 </head>
@@ -26,13 +32,13 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link active" aria-current="page" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pendidikan</a>
+          <a class="nav-link" href="#pendidikan">Pendidikan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pengelaman Kerja</a>
+          <a class="nav-link" href="#kerja">Pengelaman Kerja</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -81,7 +87,8 @@
 
 
 <!-- Portofolio -->
-<section class="portofolio">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0DCAF0" fill-opacity="1" d="M0,192L26.7,186.7C53.3,181,107,171,160,144C213.3,117,267,75,320,96C373.3,117,427,203,480,229.3C533.3,256,587,224,640,186.7C693.3,149,747,107,800,117.3C853.3,128,907,192,960,224C1013.3,256,1067,256,1120,250.7C1173.3,245,1227,235,1280,234.7C1333.3,235,1387,245,1413,250.7L1440,256L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+<section class="portofolio bg-info">
   <div class="container">
     <h1>Portofolio</h1>
     <hr class="col-2">  
@@ -287,12 +294,52 @@
     </div>
   </div>
 </div>
-
-
 ​
 
 </section>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0DCAF0" fill-opacity="1" d="M0,64L26.7,74.7C53.3,85,107,107,160,112C213.3,117,267,107,320,128C373.3,149,427,203,480,202.7C533.3,203,587,149,640,122.7C693.3,96,747,96,800,117.3C853.3,139,907,181,960,170.7C1013.3,160,1067,96,1120,69.3C1173.3,43,1227,53,1280,69.3C1333.3,85,1387,107,1413,117.3L1440,128L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
 
+<div class="container">
+  
+  <div class="row align-items-center">
+    <div class="col-3">
+      <a href="" class="btn btn-info">Software</a>
+    </div>
+    <div class="col-5">
+        <a href="" class="btn btn-info">Software</a>
+    </div>
+    <div class="col-4">
+     <a href="" class="btn btn-info">Software</a>
+    </div>
+  </div>
+
+</div> 
+
+<div class="float-sm-start">Float start on viewports sized SM (small) or wider</div><br>
+<div class="float-md-start">Float start on viewports sized MD (medium) or wider</div><br>
+<div class="float-lg-start">Float start on viewports sized LG (large) or wider</div><br>
+<div class="float-xl-start">Float start on viewports sized XL (extra-large) or wider</div><br>
+<div class="container">
+  <div class="row">
+    <div class="float-center">
+      <p> sdsd</p>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-3 align-self-center">
+      <a href="" class="btn btn-info">Software</a>
+    </div>
+        <div class="col-5 align-self-center">
+      <a href="" class="btn btn-info">Software</a>
+    </div>
+        <div class="col-4 align-self-center">
+      <a href="" class="btn btn-info">Software</a>
+    </div>
+  </div>
+</div>
 
 <div class="container">
   <div class="row  align-items-center">
@@ -356,95 +403,78 @@
   </div>
 </div>
 </div>
-<br><br><br><br>
 
-<div class="collapse" id="navbarToggleExternalContent">
-  <div class="bg-info p-4">
-   <div class="container">
-    <div class="row justify-content-start">
+<!-- Footer -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0DCAF0" fill-opacity="1" d="M0,320L48,272C96,224,192,128,288,122.7C384,117,480,203,576,250.7C672,299,768,309,864,282.7C960,256,1056,192,1152,186.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+
+<nav class="navbar sticky-bottom navbar-light bg-info">
+  <div class="container">
+    <div class="row justify-content-start col-md-12">
       <div class="col-5">
         <h5><b>CV Muhammad Ridwan </b></h5>
         <hr class="bg-warning col-3">
-        <p class="justify strong">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam temporibus dolore omnis, in natus nostrum, architecto culpa, ex beatae doloribus maxime rem exercitationem molestiae quos optio voluptates odit, eum corporis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, ut, provident. Velit rerum a, fugit repellendus voluptas, saepe laborum vel cumque? Nobis voluptatem totam nesciunt eveniet quidem fugit nam obcaecati.</p>
+        <p class="justify strong">Saya adalah seorang lulusan mahasiswa sistem informasi yang mempunyai passion dibidang IT khususnya dibidang website, dan juga design. Saya dapat bekerja secara individu maupun kelompok. Berikut saya lampirkan daftar riwayat hidup saya selama ini. Agar menjadi pertimpangan bapak/ibu.</p>
       </div>
       <div class="col-3">
         <h5><b>Social Media</b></h5>
         <hr class="bg-warning col-1">
-        <a href="https://www.linkedin.com/in/ridwan08/" target="_blank">
+        <div class="mb-3">
+         <a href="https://www.linkedin.com/in/ridwan08/" target="_blank">
           <ion-icon name="logo-linkedin" size="large"></ion-icon>
           <span class="h3">Lindkedin</span> <br>
         </a>
+      </div>
+      <div class="mb-3">
         <a href="https://www.facebook.com/Sastrawijaya97/" target="_blank">
           <ion-icon name="logo-facebook" size="large"></ion-icon>
           <span class="h3">Facebook</span> <br>
         </a>
+      </div>
+      <div class="mb-3">
         <a href="https://www.instagram.com/ridwan.sastrawijaya/" target="_blank">
           <ion-icon name="logo-instagram" size="large"></ion-icon>
           <span class="h3">Instagram</span> <br>
         </a>
       </div>
-      <div class="col-4">
-        <h5><b>Contact Me</b></h5>
-        <hr class="bg-warning col-1 strong">
-        <a href="" target="_blank">
-          <ion-icon name="logo-whatsapp" size="large"></ion-icon>
-          <span class="h3">0851 5642 4144</span> <br>
-        </a>
-        <a href="" target="_blank">
-          <ion-icon name="mail-sharp" size="large"></ion-icon>
-          <span class="h5">Ridwan.Sastrawijaya@gmail.com</span> <br>
-        </a>
+    </div>
+    <div class="col-4">
+      <h5><b>Contact Me</b></h5>
+      <hr class="bg-warning col-1 strong">
+      <div class="mb-3">
         <a href="https://github.com/Ridwan97" target="_blank">
           <ion-icon name="logo-github" size="large"></ion-icon>
           <span class="h3">Ridwan97</span> <br>
         </a>
       </div>
+      <div class="mb-3"> 
+        <a href="" target="_blank">
+          <ion-icon name="logo-whatsapp" size="large"></ion-icon>
+          <span class="h3">0851 5642 4144</span> <br>
+        </a>     
+      </div>
+      <div class="mb-3">
+        <a href="" target="_blank">
+          <ion-icon name="mail-sharp" size="large"></ion-icon>
+          <span class="h5">Ridwan.Sastrawijaya@gmail.com</span> <br>
+        </a>
+      </div>
     </div>
 
-    <br>
-
-    <h5 class="text-white h4">Collapsed content</h5>
-    <span class="text-muted">Toggleable via the navbar brand.</span>
-
-  </div>
-</div>
-</div>
-<nav class="navbar navbar-dark bg-info">
-  <div class="container-fluid">
-   <div class="container">
-    <div class="row">
-      <button class="navbar-toggler col-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span> 
-      </button>
-      <h6 class="col-10 mt-2">    ©2021 Copyright Text<a class="" href="https://github.com/Ridwan97/cv_ridwan" target="_blank"> CV Muhammad Ridwan</a></h6>
+    <div class="row mt-3">
+      <div class="h6 text-end">
+        ©2021 Copyright Design & Text <a class="" href="https://github.com/Ridwan97/cv_ridwan" target="_blank"> Muhammad Ridwan</a>
+      </div>
+      <span class="text-muted text-end">Ridwan.Sastrawijaya@gmail.com</span>
     </div>
-  </div>
-</div>
-</div>
-</div>
+
+   
+
+  </div>    
 </nav>
 
-<!-- <nav class="navbar sticky-bottom navbar-light bg-info">
-  <div class="container">
-    <div class="row">
-      
-    <a href="">
-      <span class="material-icons bg-light rounded-circle">edit</span>
-    </a>
-    </div>
-    <div class="row">
-      <a href="" class="btn btn-lg"><i class="material-icons bg-light rounded-circle">home</i></a>
-    </div>
 
-      <span class="material-icons bg-light rounded-circle">facebook</span>
-      <i class="material-icons bg-light rounded-circle">computer</i>
-    <img src="assets/img/background.jpg" class="rounded-circle hitam"><i class="material-icons">home</i>
-    <li>
-    <a  href="#"><i class="material-icons rounded-circle bg-light">facebook</i> Muhammad Ridwan</a>  
-    </li>
-    
-  </div>
-</nav> -->
+
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 

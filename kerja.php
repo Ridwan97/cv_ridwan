@@ -1,4 +1,4 @@
-<section class="kerja bg-info">
+<section class="kerja bg-info" id="kerja">
   <div class="container">
     <h1>Pengalaman Kerja</h1>
     <hr class="col-2">  

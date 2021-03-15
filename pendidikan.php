@@ -1,4 +1,4 @@
-<section class="pendidikan">
+<section class="pendidikan" id="pendidikan">
   <div class="container">
     <h1>Pendidikan</h1>
     <hr class="col-2">  
