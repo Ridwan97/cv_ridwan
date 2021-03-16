@@ -3,10 +3,10 @@
     <h1>About Me</h1>
     <hr class="col-2">  
     <div class="row justify-content-start">
-      <div class="col-4 ">
-        <p class="justify"> Saya adalah seorang lulusan mahasiswa sistem informasi yang mempunyai passion dibidang IT khususnya dibidang website, dan juga design. Saya dapat bekerja secara individu maupun kelompok. Berikut saya lampirkan daftar riwayat hidup saya selama ini. Agar menjadi pertimpangan bapak/ibu </p>
+      <div class="col-5 ">
+        <p class="justify"> Saya adalah seorang lulusan mahasiswa sistem informasi yang mempunyai passion dibidang IT khususnya dibidang website, dan juga design. Saya dapat bekerja secara individu maupun kelompok. Berikut saya lampirkan daftar riwayat hidup saya selama ini. Agar menjadi pertimpangan bapak/ibu sekalian</p>
       </div>
-      <div class="col-8">
+      <div class="col-7">
         <div class="row justify-content-start mb-3">
           <div class="col-md-4">
             <ion-icon name="eyedrop-sharp" size="large"></ion-icon><span class="h3"><b> EDITING</b></span>

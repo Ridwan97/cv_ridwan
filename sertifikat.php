@@ -1,5 +1,15 @@
 <div class="container">
-  <div class="accordion-item mb-3">
+  <div class="accordion-item mb-5 accordion-hover">
+      <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         <span class="col-2">
+            <h1>Sertifikat</h1>
+          </span>
+            <span class="col-9">
+              <h6 class="text-muted text-end" >Click Here To Detail</h6>
+            </span>
+      </button>
+    </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <div class="row">
@@ -67,11 +77,7 @@
         </div>
       </div>
     </div>
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        <h1>Sertifikat</h1>
-      </button>
-    </h2>
+  
   </div>
 </div>
 

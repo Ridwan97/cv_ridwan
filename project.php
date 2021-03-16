@@ -24,7 +24,7 @@
       <h6>Mar - Apr</h6> 
     </div>
     <div class="col-10">
-      <h4>        <b> Universitas Nasional, </b> Junior Web Dev Sistem Informasi <br>  </h4>
+      <h4>        <b> Universitas Nasional, </b> Maintaner Website <br>  </h4>
       <h5>
         <ul>
           <li>Merancang, mendesain, mengembangkan dan memodifikasi situs web.</li>
